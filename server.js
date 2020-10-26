@@ -23,7 +23,7 @@ app.get('/', async function(req, res){
     })
     res.render('articles/index', { articles: articles}) 
 }) 
-
+ 
 
 app.use('/articles', articleRouter) 
 
